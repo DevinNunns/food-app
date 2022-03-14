@@ -1,0 +1,61 @@
+.caro-img {
+  opacity: 0.3;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.hero-title {
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.green {
+  color: rgb(1, 161, 1);
+}
+
+.sub-heading {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.card {
+  margin: 10px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  opacity: 0.5;
+  mix-blend-mode: normal;
+}
+
+.card-title {
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
